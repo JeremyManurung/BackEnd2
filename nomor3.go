@@ -9,7 +9,7 @@ func main() {
 	fmt.Scanf("%d",&bilangan)
 
 	for i:=1; i <= bilangan;i++{
-		if bilangan % 1 == 0{
+		if bilangan % i == 0{
 			fmt.Print(&i)
 		}
 	}
